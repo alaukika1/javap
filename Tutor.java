@@ -7,7 +7,7 @@ public class Tutor extends Teacher{
     private boolean isCertified;
     
     //constructor of class tutor
-    public Tutor( int teacherId, String teacherName, String address, String workingType, String employmentStatus, int workingHours, double salary, String specialization,
+    public Tutor( int teacherId, boolean isCertified, String teacherName, String address, String workingType, String employmentStatus, int workingHours, double salary, String specialization,
                         String academicQualification,int performanceIndex ){
                             
      //calling superclass constructor with 5 parameters
