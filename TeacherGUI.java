@@ -1,62 +1,3 @@
-//import javax.swing.*;
-//import java.awt.*;
-//
-//class TeacherGUI {
-//
-//  // Initialize components
-//  JFrame welcomeFrameScreen = new JFrame("Teacher Management System");
-//  JPanel mainPanel = new JPanel();
-//  JLabel welcomeLabel = new JLabel("Welcome");
-//  JLabel descriptionLabel = new JLabel("Please select teacher or Lecturer to Manage them");
-//  JButton teacherButton = new JButton("Manage Teacher");
-//  JButton lecturerButton = new JButton("Manage Lecturer");
-//
-//  public static void main(String[] args) {
-//    new TeacherGUI();
-//  }
-//
-//  public TeacherGUI() {
-//    this.showWelcomeScreen();
-//  }
-//
-//  public void showWelcomeScreen() {
-//    welcomeFrameScreen.setSize(500, 300);
-//    welcomeFrameScreen.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//    welcomeFrameScreen.setLocationRelativeTo(null);  // Center the window on the screen
-//
-//    // Set up the main panel with BoxLayout for vertical stacking
-//    mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.Y_AXIS));
-//
-//    // Add the welcome label and add vertical space after it
-//    welcomeLabel.setAlignmentX(Component.CENTER_ALIGNMENT);  // Center align
-//    mainPanel.add(welcomeLabel);
-//    mainPanel.add(Box.createVerticalStrut(10));  // Space after welcome label
-//
-//    // Add the description label and add vertical space after it
-//    descriptionLabel.setAlignmentX(Component.CENTER_ALIGNMENT);  // Center align
-//    mainPanel.add(descriptionLabel);
-//    mainPanel.add(Box.createVerticalStrut(30));  // More space before the buttons
-//
-//    // Panel for buttons, using FlowLayout for natural flow and optional centering
-//    JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 50, 0)); // 50 pixels horizontal space between buttons
-//    buttonPanel.add(teacherButton);
-//    buttonPanel.add(Box.createHorizontalStrut(20));  // Optional: add some horizontal space between buttons
-//    buttonPanel.add(lecturerButton);
-//
-//    // Add the button panel to the main panel
-//    mainPanel.add(buttonPanel);
-//
-//    // Add main panel to the frame
-//    welcomeFrameScreen.add(mainPanel);
-//
-//    // Display the window
-//    welcomeFrameScreen.setVisible(true);
-//  }
-//
-//}
-
-
-
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
@@ -265,9 +206,6 @@ public class TeacherGUI {
         return textField;
     }
 
-    private void showLecturerManagementScreen() {
-        // Implement showing the lecturer management screen
-    }
     private void initializeLecturer() {
         welcomeFrameScreen.dispose();
         frame = new JFrame("Teacher Management System");
